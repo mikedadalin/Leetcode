@@ -1,3 +1,4 @@
+//---- JavaScript 97.06% ----//
 /**
  * @param {number[]} nums
  * @param {number} target
