@@ -1,4 +1,4 @@
-/---- JavaScript 93.74% ----/
+//---- JavaScript 93.74% ----//
 /**
  * @param {number[]} nums
  * @return {number[][]}
