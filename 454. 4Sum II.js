@@ -9,7 +9,20 @@
  */
 var fourSumCount = function(A, B, C, D) {
     
-    // build the map for every element paris of sum of A and B
+    /*
+        1 .split the 4 arrays into two group, A[i] + B[j] and C[k] + D[l].
+        
+        2. use two for loop to find all the combination of A[i] + B[j],
+           and record them into a hashtable.
+        
+        3. use another two for loop to find all the combination of C[k] + D[l].
+                
+        4. use hashtable to check if there is any C[k] + D[l] is the inverse of the A[i] + B[j].
+            
+    */
+    
+        
+    // build the map for every element pairs of sum of A and B
     
     var map = {};
     var count = 0;
