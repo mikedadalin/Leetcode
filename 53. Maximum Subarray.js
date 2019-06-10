@@ -3,6 +3,7 @@
 /**
  * @param {number[]} nums
  * @return {number}
+ * related topics: Array, Divide and Conquer, Dynamic Programming
  */
 var maxSubArray = function(nums) {
     /*************************************************************
