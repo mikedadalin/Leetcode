@@ -3,6 +3,7 @@
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
+ * related topic: Array, Hashtable
  */
 var twoSum = function(nums, target) {
     /*
