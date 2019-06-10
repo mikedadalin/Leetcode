@@ -3,6 +3,7 @@
  * @param {number[]} nums
  * @param {number} k
  * @return {number}
+ * related topics: Array, Hash Table
  */
 var subarraySum = function(nums, k) {
     // edge case
