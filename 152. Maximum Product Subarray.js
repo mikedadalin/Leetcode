@@ -2,6 +2,7 @@
 /**
  * @param {number[]} nums
  * @return {number}
+ * related topic: Dynamic programming, Array
  */
 var maxProduct = function(nums) {
     
