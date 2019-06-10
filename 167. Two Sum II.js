@@ -3,6 +3,7 @@
  * @param {number[]} numbers
  * @param {number} target
  * @return {number[]}
+ * related topics: Array, Hash Table
  */
 var twoSum = function(numbers, target) {
     // Edge case
