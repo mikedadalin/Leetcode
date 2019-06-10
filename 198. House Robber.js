@@ -3,6 +3,7 @@
 /**
  * @param {number[]} nums
  * @return {number}
+ * related topics: Dynamic programming
  */
 var rob = function(nums) {
     
