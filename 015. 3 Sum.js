@@ -2,6 +2,7 @@
 /**
  * @param {number[]} nums
  * @return {number[][]}
+ * related topic: Array, Two pointers
  */
 var threeSum = function(nums) {
     // Edge case
