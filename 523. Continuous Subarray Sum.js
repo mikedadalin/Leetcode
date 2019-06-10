@@ -3,6 +3,7 @@
  * @param {number[]} nums
  * @param {number} k
  * @return {boolean}
+ * related topics: Hashtable, Dynamic programming
  */
 var checkSubarraySum = function(nums, k) {
     /****************************************************************************
