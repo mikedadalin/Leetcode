@@ -3,6 +3,7 @@
  * @param {number[]} nums
  * @param {number} target
  * @return {number[][]}
+ * related topic: Array, Two pointers
  */
 var fourSum = function(nums, target) {
     // edge case 
