@@ -6,6 +6,7 @@
  * @param {number[]} C
  * @param {number[]} D
  * @return {number}
+ * related topics: Hash Table, Binary Search
  */
 var fourSumCount = function(A, B, C, D) {
     
