@@ -3,6 +3,7 @@
  * @param {number[]} A
  * @param {number} K
  * @return {number}
+ * related topics: Array, Hash table
  */
 var subarraysDivByK = function(A, K) {
     
