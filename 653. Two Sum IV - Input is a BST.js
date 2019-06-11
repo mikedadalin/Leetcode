@@ -11,6 +11,7 @@
  * @param {TreeNode} root
  * @param {number} k
  * @return {boolean}
+ * related topics: Tree, Hashtable
  */
 var findTarget = function(root, k) {
     
