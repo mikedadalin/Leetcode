@@ -4,6 +4,7 @@
  * @param {number[]} nums
  * @param {number} k
  * @return {number}
+ * related topics: Array, Two pointers
  */
 var numSubarrayProductLessThanK = function(nums, k) {
     
