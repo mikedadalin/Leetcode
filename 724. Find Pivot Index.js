@@ -3,6 +3,7 @@
 /**
  * @param {number[]} nums
  * @return {number}
+ * related topic: Array
  */
 var pivotIndex = function(nums) {
        
@@ -14,7 +15,7 @@ var pivotIndex = function(nums) {
         prefix = [a,a+b,a+b+c,a+b+c+d,a+b+c+d+e]
         
         left sum is prefix[i]
-        right sum is prefix[size-1] - P[i] + nums[i]
+        right sum is prefix[size-1] - prefix[i] 
             
     **********************************************/
     
