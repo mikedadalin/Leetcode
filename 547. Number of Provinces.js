@@ -53,4 +53,41 @@ var findCircleNum = function(isConnected) {
 //     return count++;
 // }
 
+// Union-Find 
+// var findCircleNum = function(isConnected) {
+    
+//     let parent = new Array(isConnected.length).fill(-1);
+//     let res = 0;
+    
+//     for(let i = 0; i < isConnected.length; i++) {
+//         for(let j = 0; j < isConnected.length; j++) {
+//             if(isConnected[i][j] == 1 && i != j) {
+//                 union(parent, i, j);
+//             }
+//         }
+//     }
+    
+//     for(let i = 0; i < parent.length; i++) {
+//         if(parent[i] == -1) res++;
+//     }
+    
+//     return res;
+    
+//     // union-find methods
+//     function find(parent, i) {
+//         if(parent[i] == -1) {
+//             return i;
+//         }
+//         return find(parent, parent[i]);
+//     }
+    
+//     function union(parent, i, j) {
+//         let i_group = find(parent, i);
+//         let j_group = find(parent, j);
+//         if(i_group != j_group) 
+//             parent[i_group] = j_group;
+//     }
+// }
+
+
 
