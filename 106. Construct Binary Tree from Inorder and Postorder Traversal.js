@@ -36,7 +36,7 @@ var buildTree = function(inorder, postorder) {
         post_idx--;
         // build right subtree
         root.right = helper(index + 1, in_right);
-        // build left substree
+        // build left subtree
         root.left = helper(in_left, index - 1);
         return root;
     }  
