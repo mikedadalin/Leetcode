@@ -15,18 +15,28 @@
 var connect = function(root) {
     // edge case 
     if(root == []) return [];
-    helper(root);
-    function helper(node){
-        if(node == null) return;
-        
-        if(node.left != null && node.right != null) {
-            node.left.next = node.right;
-            node.right.next = node.next;
+    if(root == null) return root;
+    
+    let queue = [];
+    queue.push(root);
+    
+    while(queue.length > 0) {
+        let level = queue.length;
+        for(let i = 0; i < level; i++) {
+            let node = queue.shift()
+            
+            // if there is still node left in current level
+            // assign the node.next
+            if(i < level - 1) {
+                node.next = queue[0];
+            }
+            
+            if(node.left != null)
+                queue.push(node.left);
+            if(node.right != null)
+                queue.push(node.right);
         }
-        
-        helper(node.left);
-        helper(node.right);
-        
     }
+    
     return root;
 };
